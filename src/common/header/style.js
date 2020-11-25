@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import logoPic from '../../statics/web-logo.png'
+// import logoPic from '../../statics/web-logo.png'
 
 export const HeaderWrapper = styled.div`
     position: relative;
@@ -14,7 +14,6 @@ export const Logo = styled.a.attrs({ href: '/'})`
     display: block;
     width: 100px
     height: 56px;
-    background: url(${logoPic});
     background-size: contain;
     
 `;
